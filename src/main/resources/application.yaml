@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: urlshortener
+
+  datasource:
+    url: jdbc:mysql://localhost:3307/urlshortener
+    username: appuser
+    password: apppass
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    open-in-view: false       # <- adding this to silence that warning
+    properties:
+      hibernate:
+        format_sql: true
+
+  data:
+    redis:
+      host: localhost
+      port: 6379
+
+  cache:
+    type: redis
+    redis:
+      time-to-live: 3600000   # <- 1 hour in milliseconds (cache expires after 1hr)
+
+server:
+  port: 8081
