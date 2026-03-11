@@ -2,6 +2,11 @@
 
 A production-grade URL shortener built with Spring Boot, MySQL, and Redis.
 
+## Why this matters
+This project demonstrates how to build a production‑ready system that combines caching, analytics, and expiration logic - the same patterns used by companies like Bitly and TinyURL.
+URL shorteners are used by millions of people every day, but the real value comes from analytics, understanding how users interact with links. This project combines functionality and insight by offering real‑time click tracking, daily/weekly metrics, and expiration controls.
+
+
 ## Features
 - 🔗 URL shortening with Base62 short codes
 - ⚡ Redis caching for sub-millisecond redirects
