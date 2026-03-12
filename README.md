@@ -1,6 +1,8 @@
 # URL Shortener with Analytics
 
 A production-grade URL shortener built with Spring Boot, MySQL, and Redis.
+<img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/3e96c044-2841-48d4-886f-c8786b410dfd" />
+
 
 ## Why this matters
 This project demonstrates how to build a production‑ready system that combines caching, analytics, and expiration logic - the same patterns used by companies like Bitly and TinyURL.
