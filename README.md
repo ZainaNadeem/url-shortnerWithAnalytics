@@ -1,7 +1,7 @@
 # URL Shortener with Analytics
 
 A production-grade URL shortener built with Spring Boot, MySQL, and Redis.
-<img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/3e96c044-2841-48d4-886f-c8786b410dfd" />
+<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/3e96c044-2841-48d4-886f-c8786b410dfd" />
 
 
 ## Why this matters
@@ -18,10 +18,10 @@ URL shorteners are used by millions of people every day, but the real value come
 
 ## Tech Stack
 - **Java 21** + **Spring Boot 3.5**
-- **MySQL 8** — persistent URL and analytics storage
-- **Redis 7** — cache-aside pattern for fast redirects
-- **Docker Compose** — local infrastructure
-- **SpringDoc OpenAPI** — Swagger UI
+- **MySQL 8** - persistent URL and analytics storage
+- **Redis 7** - cache-aside pattern for fast redirects
+- **Docker Compose** - local infrastructure
+- **SpringDoc OpenAPI** - Swagger UI
 
 ## Quick Start
 
