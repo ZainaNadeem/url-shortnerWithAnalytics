@@ -10,11 +10,11 @@ URL shorteners are used by millions of people every day, but the real value come
 
 
 ## Features
-- 🔗 URL shortening with Base62 short codes
-- ⚡ Redis caching for sub-millisecond redirects
-- 📊 Click analytics (total, today, this week, recent history)
-- ⏰ URL expiration with scheduled cleanup
-- 📖 Swagger UI for interactive API docs
+- URL shortening with Base62 short codes
+- Redis caching for sub-millisecond redirects
+- Click analytics (total, today, this week, recent history)
+- URL expiration with scheduled cleanup
+- Swagger UI for interactive API docs
 
 ## Tech Stack
 - **Java 21** + **Spring Boot 3.5**
